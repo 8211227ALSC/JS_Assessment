@@ -23,9 +23,9 @@ function mint(name, eyeColor, shirt, accessory) {
 
 function list() {
     for (let i=0; i<x.length; i++){
-        console.log("\nID:\t\t\t\t\t\t" + (i+1));
-        console.log("Name:\t\t\t\t\t" + x[i].name);
-        console.log("Eyecolor:\t\t\t" + x[i].eyeColor);
+        console.log("\nID:\t\t\t\t" + (i+1));
+        console.log("Name:\t\t\t" + x[i].name);
+        console.log("Eyecolor:\t\t" + x[i].eyeColor);
         console.log("Shirt Type:\t\t" + x[i].shirt);
         console.log("Accessory:\t\t" + x[i].accessory);
     }
@@ -42,8 +42,8 @@ function total() {
 
 mint("Hans", "Brown", "Turtle Neck", "Chain Necklace");
 mint("Kaede", "Blue", "T-shirt", "Earings");
-mint("Cleo", "Pink", "Sleeveless", "Diamond Necklace");
-mint("Lily", "White", "Coat", "Gold Earings");
-mint("Glenn", "Red", "Hoodie", "Headphones");
+mint("Cleo", "Green", "Sleeveless", "Diamond Necklace");
+mint("Lily", "Amber", "Coat", "Gold Earings");
+mint("Glenn", "Gray", "Hoodie", "Headphones");
 list();
 total();
